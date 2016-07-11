@@ -1,8 +1,7 @@
 ## Description:
 ```
 
-stripchar is perhaps the smallest Github Repositor, when you are working with Javascript | Node.js
-you can simply replace all special characters from string by using this repo.
+when you are working with Javascript | Node.js you can simply strip or replace all special characters, alphabets ang numerics from string or object by using this repository.
 ```
 
 ## Installation:
