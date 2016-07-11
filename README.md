@@ -7,15 +7,16 @@ you can simply replace all special characters from string by using this repo.
 
 ```
 ## Installation
-```
+```javascript
 npm install stripchar
+```
 
 
 ```
 ## Require
-```
+```javascript
 var stripchar = require('stripchar');
-
+```
 
 ```
 ## Use
