@@ -1,10 +1,24 @@
 {
   "name": "stripchar",
-  "description": "strip special character from string - Javascipt - Node.js",
-  "version": "0.0.4",
+  "description": "Replace or Strip special character, alphabets and numerics from string or object - Javascipt - Node.js",
+  "version": "0.0.6",
   "author": {
     "name": "Waqas Khan"
   },
+  "keywords": [
+    "trim",
+    "strip",
+    "replace",
+    "trim-special-characters",
+    "strip-special-characters",
+    "replace-special-characters",
+    "trim-numerics",
+    "strip-numerics",
+    "replace-numerics",
+    "trim-alphabets",
+    "strip-alphabets",
+    "replace-alphabets"
+  ],
   "homepage": "https://github.com/mwgi2005/stripchar",
   "license": "MIT",
   "main": "./stripchar.js",
@@ -12,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/mwgi2005/stripchar.git"
   },
-  "readme": "## Description\n```\n\nstripchar is perhaps the smallest Github Repositor, when you are working with Javascript | Node.js\nyou can simply replace all special characters from string by using this repo.\n\n\n```\n## Installation\n```\nnpm install stripchar\n\n\n```\n## Require\n```\nvar sanitizer = require('stripchar');\n\n\n```\n## Use\n```\nstripchar.strip(inputString, replaceWith); // Strip all the special characters\n",
+  "readme": "",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/mwgi2005/stripchar/issues"
