@@ -101,7 +101,7 @@ stripchar.RSExceptAlpha('new@test@id@99', '#'); // new#test#id###
 
 ## Instructions:
 
-* Use the following format of either string or object or else you will get "false" in return.
+Use the following format of either string or object or else you will get "false" in return.
 
 ```javascript
 
@@ -112,11 +112,23 @@ var obj = {"col1": "id_1", "col2": "id_2", "col3": "id_3"};
 var str = 'new_test_id';
 ```
 
-* when using replacing part of function do not not use the following as replacement otherwise it will be ignored automatically.
+when using replacing part of function do not not use the following as replacement otherwise it will be ignored automatically.
 
 ```javascript
 
 stripchar.RSExceptAlpha('new@test@id@99', 'null'); // return false
 
 stripchar.RSExceptAlpha('new@test@id@99', 'undefined'); // return false
+```
+
+## Run Test:
+
+simply type the following command to run the test from CLI.
+
+```javascript
+npm test
+
+// OR
+
+mocha
 ```
