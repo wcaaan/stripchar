@@ -1,23 +1,23 @@
-## Description
+## Description:
 ```
 
 stripchar is perhaps the smallest Github Repositor, when you are working with Javascript | Node.js
 you can simply replace all special characters from string by using this repo.
 ```
 
-## Installation
+## Installation:
 
 ```javascript
 npm install stripchar
 ```
 
 
-## Require
+## Require:
 ```javascript
 var stripchar = require('stripchar');
 ```
 
-## Use
+## Use:
 
 ```javascript
 // Strip all special characters EXCEPT underscore and alphanumeric
@@ -97,4 +97,26 @@ stripchar.RSExceptAlpha(input, replacewith);
 // Example
 
 stripchar.RSExceptAlpha('new@test@id@99', '#'); // new#test#id###
+```
+
+## Instructions:
+
+* Use the following format of either string or object or else you will get "false" in return.
+
+```javascript
+
+// JSON format
+var obj = {"col1": "id_1", "col2": "id_2", "col3": "id_3"};
+
+// String format
+var str = 'new_test_id';
+```
+
+* when using replacing part of function do not not use the following as replacement otherwise it will be ignored automatically.
+
+```javascript
+
+stripchar.RSExceptAlpha('new@test@id@99', 'null'); // return false
+
+stripchar.RSExceptAlpha('new@test@id@99', 'undefined'); // return false
 ```
