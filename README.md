@@ -23,6 +23,10 @@ var stripchar = require('stripchar');
 // Strip all special characters EXCEPT underscore and alphanumeric
 
 stripchar.RSExceptUnsAlpNum(input);
+
+// Example
+
+stripchar.RSExceptUnsAlpNum("n!e@w_t#e$s%t_id"); // new_test_id
 ```
 
 // Replace all special characters with desired oone EXCEPT underscore and alphanumeric
