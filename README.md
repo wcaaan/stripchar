@@ -39,6 +39,7 @@ stripchar.RSExceptUnsAlpNum(input);
 stripchar.RSExceptUnsAlpNum('new@test@id', '_'); // new_test_id
 ```
 
+```
 // Strip all special characters EXCEPT alphanumeric
 
 stripchar.RSspecChar(input);
