@@ -7,7 +7,6 @@ and numerics from string or object by using this repository.
 
 ## Installation:
 
-// Install module
 ```javascript
 npm install stripchar
 ```
