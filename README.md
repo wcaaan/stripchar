@@ -3,22 +3,20 @@
 
 stripchar is perhaps the smallest Github Repositor, when you are working with Javascript | Node.js
 you can simply replace all special characters from string by using this repo.
-
-
 ```
+
 ## Installation
+
 ```javascript
 npm install stripchar
 ```
 
 
-```
 ## Require
 ```javascript
 var stripchar = require('stripchar');
 ```
 
-```
 ## Use
 ```javascript
 // Strip all special characters EXCEPT underscore and alphanumeric
