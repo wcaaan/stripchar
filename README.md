@@ -1,15 +1,16 @@
 ## Description:
 ```
 
-when you are working with Javascript | Node.js you can simply strip or replace all special characters, alphabets ang numerics from string or object by using this repository.
+when you are working with Javascript | Node.js you can simply strip or replace all special characters, alphabets
+and numerics from string or object by using this repository.
 ```
 
 ## Installation:
 
+// Install module
 ```javascript
 npm install stripchar
 ```
-
 
 ## Require:
 ```javascript
