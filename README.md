@@ -26,59 +26,35 @@ stripchar.RSExceptUnsAlpNum(input);
 
 // Example
 
-stripchar.RSExceptUnsAlpNum("n!e@w_t#e$s%t_id"); // new_test_id
+stripchar.RSExceptUnsAlpNum('ne@w_t#est_id'); // new_test_id
 ```
 
+```
 // Replace all special characters with desired oone EXCEPT underscore and alphanumeric
 
 stripchar.RSExceptUnsAlpNum(input);
+
+// Example
+
+stripchar.RSExceptUnsAlpNum('new@test@id', '_'); // new_test_id
+```
+
+// Strip all special characters EXCEPT alphanumeric
+
+stripchar.RSspecChar(input);
+
+// Example
+
+stripchar.RSspecChar('new@test@id'); // newtestid
 ```
 
 ```
-// Replace all special characters with desired symbol except small - capital alphabets and numerics
+// Replace all special characters with desired one EXCEPT alphanumeric
 
-stripchar.replaceWith(input, replaceWith);
-```
+stripchar.RSspecChar(input);
 
-```
-// Strip all special characters and numerics except alphabets
+// Example
 
-stripchar.stripExceptAlpha(input);
-```
-
-```
-// Strip all special characters and alphabets except numerics
-
-stripchar.stripExceptNum(input);
-```
-
-```
-// Strip all special characters except _ underscore, alphabets and numerics
-
-stripchar.stripExceptUns(input);
-```
-
-```
-// Escape html special characters
-
-stripchar.htmlEscape(input);
-
-List of escape character:
-& > < " '
-```
-
-```
-// Strip html special characters
-
-stripchar.htmlStrip(input);
-
-List of stripped character:
-& > < " '
-```
-
-```
-// Unicode Escaping all special characters
-
-stripchar.unicodeEscape(input);
+stripchar.RSspecChar('new@test@id', '_'); // new_test_id
 ```
 
