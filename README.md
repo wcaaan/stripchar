@@ -19,7 +19,7 @@ var stripchar = require('stripchar');
 
 ```
 ## Use
-```
+```javascript
 // Strip all special characters EXCEPT underscore and alphanumeric
 
 stripchar.RSExceptUnsAlpNum(input);
@@ -29,7 +29,7 @@ stripchar.RSExceptUnsAlpNum(input);
 stripchar.RSExceptUnsAlpNum('ne@w_t#est_id'); // new_test_id
 ```
 
-```
+```javascript
 // Replace all special characters with desired oone EXCEPT underscore and alphanumeric
 
 stripchar.RSExceptUnsAlpNum(input);
@@ -39,7 +39,7 @@ stripchar.RSExceptUnsAlpNum(input);
 stripchar.RSExceptUnsAlpNum('new@test@id', '_'); // new_test_id
 ```
 
-```
+```javascript
 // Strip all special characters EXCEPT alphanumeric
 
 stripchar.RSspecChar(input);
@@ -49,7 +49,7 @@ stripchar.RSspecChar(input);
 stripchar.RSspecChar('new@test@id'); // newtestid
 ```
 
-```
+```javascript
 // Replace all special characters with desired one EXCEPT alphanumeric
 
 stripchar.RSspecChar(input);
