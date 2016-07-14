@@ -13,7 +13,7 @@ npm install stripchar
 
 ## Require:
 ```javascript
-var stripchar = require('stripchar');
+var stripchar = require('stripchar').StripChar;
 ```
 
 ## Usage:

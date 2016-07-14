@@ -5,6 +5,26 @@
   "author": {
     "name": "Waqas Khan"
   },
+  "homepage": "https://github.com/mwgi2005/stripchar",
+  "bugs": {
+    "url": "https://github.com/mwgi2005/stripchar/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwgi2005/stripchar.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "_id": "stripchar@0.0.1",
+  "scripts": {
+    "test": "mocha --recursive -R spec test -w"
+  },
+  "_shasum": "4b838f599108f33833cc39d4fa7d145eba7d10ff",
+  "_from": "stripchar@*",
   "keywords": [
     "trim",
     "strip",
@@ -19,26 +39,6 @@
     "strip-alphabets",
     "replace-alphabets"
   ],
-  "homepage": "https://github.com/mwgi2005/stripchar",
-  "license": "MIT",
-  "main": "./stripchar.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mwgi2005/stripchar.git"
-  },
   "readme": "",
   "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/mwgi2005/stripchar/issues"
-  },
-  "_id": "stripchar@0.0.1",
-  "scripts": {
-    "test": "mocha --recursive -R spec test -w"
-  },
-  "_shasum": "4b838f599108f33833cc39d4fa7d145eba7d10ff",
-  "_from": "stripchar@*",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3"
-  }
 }
