@@ -1,7 +1,7 @@
 ## Description:
 ```
 
-when you are working with Javascript | Node.js you can simply strip or replace all special characters,
+when you are working with Javascript | Node.js you can simply filter, strip or replace special characters,
 alphabets and numerics from string or object by using this repository.
 ```
 
@@ -25,7 +25,7 @@ stripchar.RSExceptUnsAlpNum(input);
 
 // Example
 
-stripchar.RSExceptUnsAlpNum('ne@w_t#est_id'); // new_test_id
+stripchar.RSExceptUnsAlpNum('ne@w_t#est_id_@12'); // new_test_id_12
 ```
 
 ```javascript
@@ -35,8 +35,30 @@ stripchar.RSExceptUnsAlpNum(input, replacewith);
 
 // Example
 
-stripchar.RSExceptUnsAlpNum('new@test@id', '_'); // new_test_id
+stripchar.RSExceptUnsAlpNum('new@test@id_12', '_'); // new_test_id_12
 ```
+
+
+```javascript
+// Strip all special characters EXCEPT underscore and alphabet
+
+stripchar.RSExceptUnsAlpha(input);
+
+// Example
+
+stripchar.RSExceptUnsAlpha('ne@w_t#est_id_12'); // new_test_id_12
+```
+
+```javascript
+// Replace all special characters with desired oone EXCEPT underscore and alphabet
+
+stripchar.RSExceptUnsAlpha(input, replacewith);
+
+// Example
+
+stripchar.RSExceptUnsAlpha('new@test@id_12', '_'); // new_test_id_12
+```
+
 
 ```javascript
 // Strip all special characters EXCEPT alphanumeric
@@ -58,6 +80,7 @@ stripchar.RSspecChar(input, replacewith);
 stripchar.RSspecChar('new@test@id', '_'); // new_test_id
 ```
 
+
 ```javascript
 // Strip everything EXCEPT numerics
 
@@ -78,6 +101,7 @@ stripchar.RSExceptNum(input, replacewith);
 stripchar.RSExceptNum('new@test@id@99', '_'); // ____________99
 ```
 
+
 ```javascript
 // Strip everything EXCEPT alphabets
 
@@ -97,6 +121,7 @@ stripchar.RSExceptAlpha(input, replacewith);
 
 stripchar.RSExceptAlpha('new@test@id@99', '#'); // new#test#id###
 ```
+
 
 ## Instructions:
 
@@ -131,3 +156,14 @@ npm test
 
 mocha
 ```
+
+
+### Please support this project
+Please support the project development, even a small donation can help grow this project!
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7V57PFMAZHKLA" target="_blank"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"></a>
+
+#### Interested in some new feature?
+Is there something new you like to see in this package ?
+Please contact me and i'll do my best to implement that in next releases.
