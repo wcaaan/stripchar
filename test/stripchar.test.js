@@ -14,6 +14,18 @@ describe('Strip OR Replace Test for RSExceptUnsAlpNum', function()
 	});
 });
 
+describe('Strip OR Replace Test for RSExceptUnsAlpha', function()
+{
+	it('Should Strip every thing EXCEPT Underscore and Alphabets', function()
+	{
+		stripchar.RSExceptUnsAlpha('t@e#s$t_i^d9&9').should.equal('test_id');
+	});
+	it('Should Replace all special characeters with desired one EXCEPT Underscore and Alphabets', function()
+	{
+		stripchar.RSExceptUnsAlpha('test@id', '_').should.equal('test_id');
+	});
+});
+
 describe('Strip OR Replace Test for RSspecChar', function()
 {
 	it('Should Strip every thing EXCEPT Alphanumerics', function()
