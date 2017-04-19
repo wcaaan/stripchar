@@ -158,10 +158,16 @@ mocha
 ```
 
 
+## License
+Stripchar is free software distributed under the terms of the MIT license.
+
+
 ### Please support this project
 Please support the project development, even a small donation can help grow this project!
 
+
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7V57PFMAZHKLA" target="_blank"><img src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif"></a>
+
 
 #### Interested in some new feature?
 Is there something new you like to see in this package ?
