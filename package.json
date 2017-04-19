@@ -1,7 +1,7 @@
 {
   "name": "stripchar",
   "description": "Replace or Strip special character, alphabets and numerics from string or object - Javascipt - Node.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Waqas Khan"
   },
