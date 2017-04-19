@@ -161,8 +161,7 @@ mocha
 ### Please support this project
 Please support the project development, even a small donation can help grow this project!
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7V57PFMAZHKLA" target="_blank"><input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7V57PFMAZHKLA" target="_blank"><img src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif"></a>
 
 #### Interested in some new feature?
 Is there something new you like to see in this package ?
